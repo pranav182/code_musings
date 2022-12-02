@@ -4,7 +4,7 @@ n = 200
 number = [i for i in range(1, 101)] # Took all numbers between 1 and 100 for testing
 for ele in number:
     if k%ele == 0:
-        ans = ((n//ele) - (k//ele)) + 1 # Main algorithm
+        ans = ((n//ele) - (k//ele)) + 1 # Formulae when k is divisible by number
     else:
-        ans = ((n//ele) - (k//ele)) # Main algorithm
+        ans = ((n//ele) - (k//ele)) # Formulae when k is not divisible by number
     print(f"k = {k}, n = {n}, number = {ele}, answer = {ans}")
