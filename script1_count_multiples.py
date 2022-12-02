@@ -1,4 +1,4 @@
-# Final total number of multiples of a given number (number) between two numbers (k and n)
+# Find total number of multiples of a given number (number) between two numbers (k and n)
 k = 21
 n = 200
 number = [i for i in range(1, 101)] # Took all numbers between 1 and 100 for testing
