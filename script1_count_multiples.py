@@ -11,7 +11,7 @@ for ele in number:
         ans = ((n//ele) - (k//ele)) # Formulae when k is not divisible by number
     print(f"k = {k}, n = {n}, number = {ele}, answer = {ans}")
     
-    # Efficient method found!!
+    # Possible one liner..
     ANS = (n//ele - math.ceil(k/ele)) + 1
     print(ANS)
     print('')
